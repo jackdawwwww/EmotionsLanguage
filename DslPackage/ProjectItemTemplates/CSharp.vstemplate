@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{c7b682b8-0180-4877-9916-49f875252408}</TemplateID>
+		<Name Package="{07c03dca-eafa-43b2-a0b9-5774ec2a6ea9}" ID="103"/>
+		<Description Package="{07c03dca-eafa-43b2-a0b9-5774ec2a6ea9}" ID="102"/>
+		<Icon Package="{07c03dca-eafa-43b2-a0b9-5774ec2a6ea9}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>EmotionsLanguage.EmotionsLanguage</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.EmotionsLanguage">EmotionsLanguage.EmotionsLanguage</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.EmotionsLanguage.diagram">EmotionsLanguage.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
